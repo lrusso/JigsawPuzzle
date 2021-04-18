@@ -1,16 +1,16 @@
 const filesToCache = [
-	"Jigsaw.htm",
-	"Jigsaw.json",
-	"Jigsaw.png",
-	"JigsawFavIcon_16x16.png",
-	"JigsawFavIcon_192x192.png",
-	"JigsawFavIcon_512x512.png",
-	"JigsawGame.htm",
-	"JigsawGame.js",
-	"JigsawShare.png"
+	"JigsawPuzzle.htm",
+	"JigsawPuzzle.json",
+	"JigsawPuzzle.png",
+	"JigsawPuzzleFavIcon_16x16.png",
+	"JigsawPuzzleFavIcon_192x192.png",
+	"JigsawPuzzleFavIcon_512x512.png",
+	"JigsawPuzzleGame.htm",
+	"JigsawPuzzleGame.js",
+	"JigsawPuzzleShare.png"
 ];
 
-const staticCacheName = "jigsaw-v1";
+const staticCacheName = "jigsawpuzzle-v1";
 
 self.addEventListener("install", event => {
 	event.waitUntil(

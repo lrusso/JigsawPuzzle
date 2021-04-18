@@ -1,12 +1,12 @@
-# Jigsaw
+# Jigsaw Puzzle
 
 Jigsaw game in JavaScript.
 
-![alt screenshot](https://raw.githubusercontent.com/lrusso/Jigsaw/master/Jigsaw.png)
+![alt screenshot](https://raw.githubusercontent.com/lrusso/JigsawPuzzle/master/JigsawPuzzle.png)
 
 ## Web:
 
-https://lrusso.github.io/Jigsaw/Jigsaw.htm
+https://lrusso.github.io/JigsawPuzzle/JigsawPuzzle.htm
 
 ## Based on the work of:
 

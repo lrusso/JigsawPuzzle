@@ -1,6 +1,6 @@
 # Jigsaw Puzzle
 
-Jigsaw game in JavaScript.
+Jigsaw Puzzle game in JavaScript.
 
 ![alt screenshot](https://raw.githubusercontent.com/lrusso/JigsawPuzzle/master/JigsawPuzzle.png)
 

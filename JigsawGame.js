@@ -169,6 +169,16 @@ Jigsaw.Game = function (game)
 	this.current = null;
 	this.pieces = null;
 	this.action = null;
+	this.hintBackground = null;
+	this.hintImage = null;
+	this.hintCorner1A = null;
+	this.hintCorner1B = null;
+	this.hintCorner1C = null;
+	this.hintCorner1D = null;
+	this.buttonRestartShadow = null;
+	this.buttonRestart = null;
+	this.buttonHintShadow = null;
+	this.buttonHint = null;
 
 	// SCALING THE CANVAS SIZE FOR THE GAME
 	function resizeF()
@@ -231,10 +241,20 @@ Jigsaw.Game.prototype = {
 		// SETTING TO HIDE OTHER PIECE WHEN PICKING ONE UP
 		this.hidePiecesOnPickup = true;
 
-		// OTHER GAME VARIABLES
+		// OTHER GAME VARIABLES AND OBJECTS
 		this.current = null;
 		this.pieces = null;
-		this.action = Jigsaw.SELECTING;
+		this.action = null;
+		this.hintBackground = null;
+		this.hintImage = null;
+		this.hintCorner1A = null;
+		this.hintCorner1B = null;
+		this.hintCorner1C = null;
+		this.hintCorner1D = null;
+		this.buttonRestartShadow = null;
+		this.buttonRestart = null;
+		this.buttonHintShadow = null;
+		this.buttonHint = null;
 		},
 
 	create: function()
